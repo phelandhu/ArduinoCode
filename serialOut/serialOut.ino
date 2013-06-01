@@ -20,5 +20,5 @@ void loop() {
   // print out the value you read:
   Serial.print("Value out: ");
   Serial.println(i);
-  delay(1);        // delay in between reads for stability
+  delay(250);        // delay in between reads for stability
 }
